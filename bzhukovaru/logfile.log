@@ -1,0 +1,49 @@
+Watching for file changes with StatReloader
+C:\Dev\Django-test\bzhukovaru\bzhukovaru\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Dev\Django-test\bzhukovaru\bzhukovaru\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Request: GET /
+"GET / HTTP/1.1" 200 536
+Request: GET /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2275
+Request: GET /
+"GET / HTTP/1.1" 200 536
+Request: GET /444
+Not Found: /444
+"GET /444 HTTP/1.1" 404 2251
+C:\Dev\Django-test\bzhukovaru\bzhukovaru\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Dev\Django-test\bzhukovaru\bzhukovaru\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Request: GET /
+"GET / HTTP/1.1" 200 536
+Request: GET /
+"GET / HTTP/1.1" 200 536
+Request: GET /
+"GET / HTTP/1.1" 200 536
+Request: GET /
+"GET / HTTP/1.1" 200 536
+C:\Dev\Django-test\bzhukovaru\bzhukovaru\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Dev\Django-test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Dev\Django-test\venv\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Dev\Django-test\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Dev\Django-test\venv\lib\site-packages\django\http\request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 74230
+Watching for file changes with StatReloader
+Request: GET /
+"GET / HTTP/1.1" 200 325
+Request: GET /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2275
